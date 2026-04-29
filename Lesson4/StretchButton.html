@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stretch Button</title>
+
+    <style>
+
+        .pagination button{
+            padding: 8px 12px;
+            margin: 5px;
+            border: 1px solid #ccc;
+            background-color: white;
+            cursor: pointer;
+
+        }
+        .pagination button:hover{
+            background-color: #ddd;
+
+        }
+        .pagination button.active{
+            background-color: green;
+            color:white;
+            border: none;
+        }
+
+
+
+
+
+
+
+
+        .stretch{
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: padding 0.3s;
+        }
+        .stretch:hover {
+            padding: 15px 30px;
+
+        }
+
+        .shadow{
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+        }
+        .shadow:hover {
+           box-shadow: none;
+           transform: translateY(5px);
+
+        }
+
+
+
+        .btn{
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            margin-right: 10px;
+            cursor: pointer;
+            transition: padding 0.3s;
+        }
+        .btn:hover {
+            padding: 10px 25px;
+
+        }
+
+        
+
+    </style>
+
+
+
+
+</head>
+<body>
+
+    <div class="pagination">
+        <button>Back</button>
+        <button class="active">1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+        <button>5</button>
+        <button>Next</button>
+        
+
+    </div>
+
+
+    <button class="stretch">Stretch</button>
+
+
+    <button class="shadow">Shadow</button>
+
+     <button class="btn">one</button>
+      <button class="btn">Two</button>
+       <button class="btn">Three</button>
+
+
+    
+</body>
+</html>
