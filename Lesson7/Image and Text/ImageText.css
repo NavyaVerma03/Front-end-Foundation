@@ -1,0 +1,72 @@
+.input1{
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    margin-right: 50px;
+}
+
+.input2{
+    padding: 12px;
+    border-radius: 25px;
+    border:none;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin-right: 50px;
+  
+}
+
+.linkedin {
+    width: 300px;
+    margin-top: 50px;
+}
+
+.linkedin input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+.linkedin button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0a66c2;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.twitter {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.twitter img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  
+}
+
+.twitter input {
+   flex: 1;
+   border: none;
+   outline: none;
+   background: transparent;
+}
+
+.twitter button {
+   
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
