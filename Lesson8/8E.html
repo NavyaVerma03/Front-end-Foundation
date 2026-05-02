@@ -1,0 +1,79 @@
+<!-- Uber Ride Request Form -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Uber Form</title>
+
+<style>
+  body {
+    font-family: Arial;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .container {
+    background: #fff;
+    padding: 25px;
+    width: 320px;
+    border-radius: 8px;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+    font-weight: normal;
+  }
+
+  input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: none;
+    background: #eee;
+     box-sizing: border-box;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+  }
+
+  .black {
+    flex: 1;
+    background: #000;
+    color: #fff;
+    padding: 12px;
+    border: none;
+  }
+
+  .gray {
+    flex: 1;
+    background: #ddd;
+    padding: 12px;
+    border: none;
+  }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <h2>Request a ride now</h2>
+
+  <input type="text" placeholder="Enter pickup location">
+  <input type="text" placeholder="Enter destination">
+
+  <div class="buttons">
+    <button class="black">Request now</button>
+    <button class="gray">Schedule for later</button>
+  </div>
+</div>
+
+</body>
+</html>
