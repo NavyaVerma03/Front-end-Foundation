@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            font-family: Arial;
+            background-color: #f0f0f0;
+        }
+
+        .grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            max-width: 700px;
+            margin: 40px auto;
+        }
+        .card{
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            overflow: hidden;
+        }
+
+        .card img{
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .content{
+            padding:10px;
+        
+        }
+
+        .name{
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .friend{
+            display: grid;
+            grid-template-columns: 30px 1fr;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 10px;
+
+        }
+
+        .friend img{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
+
+        button{
+            background-color: #1877f2;
+            color: white;
+            border: none;
+            padding: 8px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="grid">
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiWU27Em70MHjbSoe2HbcB3g8Xs1fGTzU4PA&s" alt="Image">
+            <div class="content">
+                <div class="name">Oliver</div>
+                <div class="friend">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiWU27Em70MHjbSoe2HbcB3g8Xs1fGTzU4PA&s" alt="Image">
+                    <div>2 mutual friend</div>
+                </div>
+                <button>Add Friend</button>
+            </div>
+        </div>
+
+         <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiWU27Em70MHjbSoe2HbcB3g8Xs1fGTzU4PA&s" alt="Image">
+            <div class="content">
+                <div class="name">Rose</div>
+                <div class="friend">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiWU27Em70MHjbSoe2HbcB3g8Xs1fGTzU4PA&s" alt="Image">
+                    <div>4 mutual friend</div>
+                </div>
+                <button>Add Friend</button>
+            </div>
+        </div>
+
+         <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiWU27Em70MHjbSoe2HbcB3g8Xs1fGTzU4PA&s" alt="Image">
+            <div class="content">
+                <div class="name">Lyra</div>
+                <div class="friend">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiWU27Em70MHjbSoe2HbcB3g8Xs1fGTzU4PA&s" alt="Image">
+                    <div>5 mutual friend</div>
+                </div>
+                <button>Add Friend</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
