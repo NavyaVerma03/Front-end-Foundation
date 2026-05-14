@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .product-container{
+        position:relative;
+
+        display:inline-block;
+        }
+
+        .shirt-image{
+        width:300px;
+        height:300px;
+
+        object-fit:cover;
+        }
+
+        .discount{
+        position:absolute;
+
+        top:10px;
+        right:0;
+
+        background-color:black;
+        color:white;
+
+        padding:8px 12px;
+        }
+
+        .overlay{
+        position:absolute;
+
+        left:0;
+        right:0;
+        bottom:0;
+
+        height:80px;
+
+        background-color:rgba(255,255,255,0.7);
+
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        }
+
+        .cart-button{
+        background-color:white;
+
+        border:1px solid black;
+
+        padding:10px 15px;
+        }
+
+  </style>
+</head>
+<body>
+    <div class="product-container">
+
+    <img class="shirt-image"
+      src="https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=600">
+
+    <div class="discount">
+      20% OFF
+    </div>
+
+    <div class="overlay">
+
+      <button class="cart-button">
+        Add to Cart
+      </button>
+
+    </div>
+
+  </div>
+</body>
+</html>
