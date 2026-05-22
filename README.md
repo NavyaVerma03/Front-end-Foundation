@@ -198,11 +198,10 @@ Front-end-Foundation
 
 # 🌸 NAVYA VERMA
 
-<img src="https://avatars.githubusercontent.com/NavyaVerma03" width="150" style="border-radius:50%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=24&duration=2500&pause=1000&color=FF69B4&center=true&vCenter=true&width=700&lines=Code+.+Create+.+Learn+.+Grow+💻;Frontend+Developer+Journey+🚀;Dream+Big+And+Build+Bigger+✨"/>
 
 </div>
+
 ---
 
 # ⭐ SUPPORT
