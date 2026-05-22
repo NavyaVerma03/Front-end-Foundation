@@ -1,0 +1,52 @@
+<!-- Tweet Box With Shadow -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .tweet-box {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            width: 400px;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.2);
+            font-family: Arial;
+        }
+
+        .profile {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+
+        .tweet-input {
+            flex: 1;
+            border: none;
+            outline: none;
+            font-size: 14px;
+        }
+
+        .tweet-btn {
+            background-color: #1da1f2;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+</style>
+
+</head>
+<body>
+    <div class="tweet-box">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" class="profile">
+        <input type="text" placeholder="What's happening?" class="tweet-input">
+        <button class="tweet-btn">Tweet</button>
+    </div>
+</body>
+</html>
