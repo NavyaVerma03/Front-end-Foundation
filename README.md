@@ -4,8 +4,6 @@
 
 # 🚀 FRONT-END DEVELOPMENT JOURNEY
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&duration=2500&pause=1000&color=00F5FF&center=true&vCenter=true&width=1000&lines=HTML+%7C+CSS+%7C+JavaScript+💻;Building+Creative+Projects+🔥;Learning+Frontend+Development+🚀;Daily+Practice+And+Growth+✨;Consistency+Creates+Success+⚡"/>
-
 <br>
 
 <img src="https://img.shields.io/badge/STATUS-ACTIVE-success?style=for-the-badge&logo=github"/>
