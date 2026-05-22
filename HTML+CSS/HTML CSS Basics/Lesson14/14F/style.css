@@ -1,0 +1,83 @@
+body{
+  margin: 0;
+  height: 3000px;
+  font-family: Arial;
+}
+
+.sidebar-container{
+  display: flex;
+}
+
+/* First Sidebar */
+.first-sidebar{
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  bottom: 0;
+
+  width: 70px;
+
+  background-color: rgb(33,33,33);
+
+  padding-top: 15px;
+}
+
+.first-sidebar img{
+  width: 50px;
+  height: 50px;
+
+  border-radius: 25px;
+
+  object-fit: cover;
+
+  display: block;
+
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+/* Second Sidebar */
+.second-sidebar{
+  position: fixed;
+
+  top: 0;
+  left: 70px;
+  bottom: 0;
+
+  width: 200px;
+
+  background-color: rgb(55,55,55);
+
+  padding: 15px;
+}
+
+/* Info Row */
+.info-row{
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 15px;
+}
+
+.info{
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.plus{
+  color: gray;
+  font-size: 25px;
+}
+
+/* Channels */
+.channel{
+  color: gray;
+
+  margin-bottom: 16px;
+
+  font-size: 18px;
+}

@@ -1,0 +1,61 @@
+<!-- Profile Card Design -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card {
+        width: 200px;
+        border-radius: 6px;
+        box-shadow: 0 0 6px rgba(0,0,0,0.2);
+        font-family: Arial;
+        overflow: hidden;
+        }
+
+        .card-img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        }
+
+        .card-content {
+        padding: 10px;
+        }
+
+        .name {
+        font-weight: bold;
+        margin: 5px 0;
+        }
+
+        .friends {
+        color: gray;
+        font-size: 14px;
+        margin-bottom: 10px;
+        }
+
+        .add-btn {
+        background-color: #1877f2;
+        color: white;
+        border: none;
+        padding: 8px;
+        width: 100%;
+        border-radius: 4px;
+        cursor: pointer;
+        }
+</style>
+
+</head>
+<body>
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiWU27Em70MHjbSoe2HbcB3g8Xs1fGTzU4PA&s" class="card-img">
+        <div class="card-content">
+            <p class="name">Rose</p>
+            <p class="friends">2 mutual friends</p>
+            <button class="add-btn">Add Friend</button>
+        </div>
+    </div>
+</body>
+</html>
